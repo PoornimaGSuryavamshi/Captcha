@@ -69,5 +69,8 @@ Ext.define('Captcha.view.main.List', {
             xtype: 'captcha',
             type: 'math'
             // type: 'alphanumeric'
+        },{
+            xtype: 'captchacontainer',
+            type: 'alphanumeric',
         }]
 });
